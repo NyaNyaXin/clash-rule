@@ -12,6 +12,15 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连
+  PeiQian:
+    url: "https://dash.pqjc.site/api/v1/client/subscribe?token=a28e3a19346e916c06b7e739955c0e39"
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 直连
 
 # 节点信息
 proxies:
